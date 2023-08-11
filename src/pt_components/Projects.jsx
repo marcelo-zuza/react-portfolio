@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
   return (
@@ -10,7 +11,8 @@ const Projects = () => {
             <h2>PROJETOS</h2>
             <p>Conheça meus projetos</p>
             <div className="hero-container fade-in-element" id='btn-projetos'>
-              <a data-aos="fade-up" data-aos-delay="200" href="#" className="btn-get-started" id='projects'>Projetos</a>
+              <Link to="/projects" className="btn-get-started" id='projects'>Projetos</Link>
+
             </div>
 
           </div>

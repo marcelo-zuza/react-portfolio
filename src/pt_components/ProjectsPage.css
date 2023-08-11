@@ -1,0 +1,17 @@
+#card-project .card {
+    width: 18rem;
+}
+
+.botao {
+    background-color: black;
+    color: white;
+}
+
+.botao:hover {
+    background-color: #18d26e;
+    color: white;
+}
+
+#project-list {
+    padding: 6%;
+}
